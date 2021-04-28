@@ -1,16 +1,20 @@
 'use strict'
+let score = 0;
 
+function f1(){
 let userName = prompt('hello. your name please?');
 console.log(userName);
 
 alert(' welcom to my website ' + userName);
 
-let score = 0;
 
 alert('answer by yes or no please');
+}
+f1();
 
 //qusation 1
-let userAnswer = prompt('do you know me is qusai?');
+function f2(){
+let userAnswer = prompt('do you know my name is qusai?');
 
 switch (userAnswer.toLowerCase()) {
     case 'yes':
@@ -30,9 +34,10 @@ if (userAnswer === 'yes') {
 } else {
     alert('hi iam qusai');
 }
-
+}
+f2();
 //qusation 2
-
+function f3(){
 
 let userAnswer2 = prompt('did you know that my age is 28 ?');
 
@@ -55,9 +60,10 @@ if (userAnswer2 === 'yes') {
 } else {
     alert('i am 28');
 }
-
+}
+f3();
 //qusation 3
-
+function f4(){
 let userAnswer3 = prompt('Are you and me studed togather?');
 
 switch (userAnswer3.toLowerCase()) {
@@ -79,9 +85,10 @@ if (userAnswer3 === 'yes') {
 } else {
     alert('i studed in MUET');
 }
-
+}
+f4();
 //qusation 4
-
+function f5(){
 let userAnswer4 = prompt('do you have intrest in motivation?');
 
 switch (userAnswer4.toLowerCase()) {
@@ -103,8 +110,11 @@ if (userAnswer4 === 'yes') {
 } else {
     alert('we well work on it');
 }
-//qusation 5
+}
+f5();
 
+//qusation 5
+function f6(){
 let userAnswer5 = prompt('would you like to know more about me ?');
 
 switch (userAnswer5.toLowerCase()) {
@@ -124,7 +134,14 @@ if (userAnswer5 === 'yes') {
 } else {
     alert('thank you for yor time');
 }
+}
+f6();
+
+
+
 // question 6
+
+function f7(){
 let userAnswer6;
 
 for (let i = 0; i < 4; i++) {
@@ -141,9 +158,11 @@ for (let i = 0; i < 4; i++) {
         break;
     }
 }
+alert("the correct answer is : 176");
+}
+f7();
 
-
-
+function f8(){
 let favDrink = ['tea' , 'greentea' , 'boom' , 'arabiccoffee' ];
 let userAnswer7;
 for (let i = 0; i < 6; i++) {
@@ -168,6 +187,8 @@ for (let i = 0; i < 6; i++) {
     }
     alert('try another drink')
     }
+}
+f8();
     console.log(score);
 
     alert(' i well always be happy to know dear ' + userName + ' my FavBook is ' + favDrink + 'your score' + score );
