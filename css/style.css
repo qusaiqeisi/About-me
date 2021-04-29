@@ -4,6 +4,7 @@ h1{
     background-color: azure;
     text-align: center;
     font-size: 45px;
+    
 }
 
 header nav ul li {
@@ -12,6 +13,9 @@ header nav ul li {
     font-size: 20px;
     margin-left: 20px;
     text-decoration: black;
+    font-family: 'Antonio', sans-serif;
+    position: sticky;
+
 }
 
 nav ul li {
@@ -19,7 +23,7 @@ nav ul li {
     margin: 25px;
     padding: 10px;
     font-size: 20px;
-
+    font-family: 'Orelega One', cursive;
     
     
 }
@@ -48,4 +52,6 @@ background-size: cover;
         margin-left: 50px;
         list-style:decimal;
         font-size: 20px;
+        font-family: 'Orelega One', cursive;
     }
+
